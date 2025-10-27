@@ -13,6 +13,8 @@
    - Configured image optimization for static export
    - Set base path for GitHub Pages (`/ProjectTransporter`)
    - Added asset prefix for proper resource loading
+   - Added `trailingSlash: true` for consistent routing
+   - **Fixed styling issue**: Removed conditional logic that caused CSS to not load properly
 
 3. **Jekyll Bypass** (`public/.nojekyll`)
    - Prevents GitHub Pages from ignoring Next.js files starting with `_`

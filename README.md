@@ -152,6 +152,15 @@ To use a custom domain:
 2. Configure your DNS settings to point to GitHub Pages
 3. Update `basePath` and `assetPrefix` in `next.config.mjs` to empty strings
 
+## 🔧 Troubleshooting
+
+If you encounter styling issues after deployment (unstyled HTML), see [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for solutions.
+
+Common issues:
+- **No styling on GitHub Pages**: Check that `basePath` and `assetPrefix` match your repository name
+- **404 errors for assets**: Verify `.nojekyll` file exists in build output
+- **Blank page**: Ensure you're accessing the correct URL with the base path (e.g., `/ProjectTransporter/`)
+
 
 ## 🔧 Development
 
